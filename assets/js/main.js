@@ -221,7 +221,6 @@
 
 
       on('click', '#portfolio-flters li', function(e) {
-        console.log("sdf")
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
           el.classList.remove('filter-active');
