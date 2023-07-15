@@ -204,8 +204,24 @@
       });
 
       let portfolioFilters = select('#portfolio-flters li', true);
-      
+
+      var elementToClick = document.getElementById('portfolio-flters');
+
+      var myList = document.getElementById('portfolio-flters');
+      var targetItem = myList.children[0];
+
+      setTimeout(()=>{
+        var event = new MouseEvent('click', {
+          bubbles: true,
+          cancelable: true,
+          view: window
+        });
+        targetItem.dispatchEvent(event);
+      },1000)
+
+
       on('click', '#portfolio-flters li', function(e) {
+        console.log("sdf")
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
           el.classList.remove('filter-active');
