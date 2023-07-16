@@ -188,7 +188,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 90px;
+  max-height: 80px;
   margin-right: 6px;
 }
 
@@ -1621,7 +1621,7 @@ section {
 .contact .info-box {
   color: #444444;
   background: #fafbff;
-  padding: 20px;
+  padding: 15px;
 }
 
 .contact .info-box i {
@@ -2326,7 +2326,7 @@ section {
 }
 
 .footer .footer-top .footer-info .logo img {
-  max-height: 65px;
+  max-height: 55px;
   margin-right: 6px;
 }
 
