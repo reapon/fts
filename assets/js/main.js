@@ -1,9 +1,5 @@
 /**
-* Template Name: FlexStart
-* Updated: Jun 19 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+
 */
 (function() {
   "use strict";
@@ -204,8 +200,6 @@
       });
 
       let portfolioFilters = select('#portfolio-flters li', true);
-
-      var elementToClick = document.getElementById('portfolio-flters');
 
       var myList = document.getElementById('portfolio-flters');
       var targetItem = myList.children[0];

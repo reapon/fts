@@ -1,9 +1,5 @@
 /**
-* Template Name: FlexStart
-* Updated: Jun 19 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+
 */
 
 /*--------------------------------------------------------------
@@ -2438,4 +2434,21 @@ section {
 .whatsapp:hover{
   color: green !important;
   font-size: 20px !important;
+}
+
+.service-img{
+  height: 220px;
+}
+
+.nav-text-size{
+  font-size: 12px !important;
+}
+
+.vehicle-small-header{
+  font-weight: 500  !important;
+  color: #333 !important;
+}
+
+.vehicle-img{
+  height: 260px;
 }
