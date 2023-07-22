@@ -1617,7 +1617,7 @@ section {
 .contact .info-box {
   color: #444444;
   background: #fafbff;
-  padding: 15px;
+  padding: 14px;
 }
 
 .contact .info-box i {
@@ -2451,4 +2451,9 @@ section {
 
 .vehicle-img{
   height: 260px;
+}
+
+.client-img-new{
+  height: 100px !important;
+  width: 100%;
 }
