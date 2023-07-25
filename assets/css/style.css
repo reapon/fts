@@ -2451,9 +2451,30 @@ section {
 
 .vehicle-img{
   height: 260px;
+  width: 100%;
 }
 
 .client-img-new{
   height: 100px !important;
   width: 100%;
+}
+
+
+@media (max-width: 1024px) {
+  .footer-brand-name{
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-brand-name{
+    font-size: 14px !important;
+  }
+}
+
+.clients-name{
+  text-align: center;
+  font-weight: 700;
+  color: #012970;
+  font-size: 14px;
 }
